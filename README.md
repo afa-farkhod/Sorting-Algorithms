@@ -1,5 +1,5 @@
 # [Sorting-Algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm)
-### Sorting Algorithms: Insertion Sort, Bubble Sort, Merge Sort, Quick Sort, Heap Sort, Bucket Sort, Radix Sort, External Sort
+### Sorting Algorithms: Insertion Sort, Bubble Sort, Merge Sort, Quick Sort, Heap Sort, External Sort
 
 *[Insertion Sort.](https://en.wikipedia.org/wiki/Insertion_sort)*
 ------------------
