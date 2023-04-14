@@ -37,4 +37,15 @@ Merge Sort algorithm implementation in Java, and demo result:
 
 ![image](https://user-images.githubusercontent.com/24220136/231917835-0ae7596b-3787-4be0-854f-9d578edf0a1c.png)
 
+*[Quick Sort.](https://en.wikipedia.org/wiki/Quicksort)*
+------------------
+
+The algorithm selects an element, called the pivot, in the array. It divides the array into two parts, so that all the elements in the first part are less than or equal to the pivot and all the elements in the second part are greater than the pivot. The quick sort algorithm is then recursively applied to the first part and then the second part. Each partition places the pivot in the right place. The selection of the pivot affects the performance of the algorithm. Ideally, the algorithm should choose the pivot that divides the two parts evenly. For simplicity, assume the first element in the array is chosen as the pivot. Following illustrates how to sort an array (5 2 9 3 8 4 0 1 6 7) using quick sort. Choose the first element, 5, as the pivot. The array is partitioned into two parts. The highlighted pivot is placed in the right place in the array. Apply quick sort on two partial arrays (4 2 1 3 0) and then (8 9 6 7). The pivot 4 partitions (4 2 1 3 0) into just one partial array
+(0 2 1 3). Apply quick sort on (0 2 1 3). The pivot 0 partitions it into just one partial array (2 1 3). Apply quick sort on (2 1 3). The pivot 2 partitions it into (1) and (3). Apply quick sort on (1). Since the array contains just one element, no further partition is needed.
+
+![image](https://user-images.githubusercontent.com/24220136/231922911-c7280ca5-c5ff-4f83-a60e-b951399e3637.png)
+
+Quick Sort algorithm implementation in Java, and demo result:
+
+![image](https://user-images.githubusercontent.com/24220136/231922959-5ab8fe25-5b9a-4bbe-b734-0bd87519eb6b.png)
 
