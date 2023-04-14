@@ -24,3 +24,17 @@ A bubble sort sorts the array in multiple phases. Each pass successively swaps t
 Bubble Sort algorithm implementation in Java, and demo result:
 
 ![image](https://user-images.githubusercontent.com/24220136/231914958-071f4081-1ad6-4ae7-ae5a-6c73ed1599c7.png)
+
+*[Merge Sort.](https://en.wikipedia.org/wiki/Merge_sort)*
+------------------
+
+The merge sort algorithm can be described recursively as following: The algorithm divides the array into two halves and applies a merge sort on each half recursively. After the two halves are sorted, merge them. Following illustrates a merge sort of an array of eight elements (2 9 5 4 8 1 6 7). The original
+array is split into (2 9 5 4) and (8 1 6 7). Apply a merge sort on these two subarrays recursively to split (2 9 5 4) into (2 9) and (5 4) and (8 1 6 7) into (8 1) and (6 7). This process continues until the subarray contains only one element. For example, array (2 9) is split into the subarrays (2) and (9). Since array (2) contains a single element, it cannot be further split. Now merge (2) with (9) into a new sorted array (2 9); merge (5) with (4) into a new sorted array (4 5). Merge (2 9) with (4 5) into a new sorted array (2 4 5 9), and finally merge (2 4 5 9) with (1 6 7 8) into a new sorted array (1 2 4 5 6 7 8 9).
+
+![image](https://user-images.githubusercontent.com/24220136/231917762-91546175-e36f-4afb-8ba1-cf1f2cf506d9.png)
+
+Merge Sort algorithm implementation in Java, and demo result:
+
+![image](https://user-images.githubusercontent.com/24220136/231917835-0ae7596b-3787-4be0-854f-9d578edf0a1c.png)
+
+
