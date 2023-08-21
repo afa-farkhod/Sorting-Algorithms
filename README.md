@@ -88,7 +88,7 @@
 *[External Sort](https://en.wikipedia.org/wiki/External_sorting)*
 ------------------
 
-- We can sort a large amount data using an external sort. All the sort algorithms discussed previously assume that all the data to be sorted are available at one time in internal memory, such as in an array. To sort data stored in an external file, we must first bring the data to the memory and then sort it internally. However, if the file is too large, all the data in the file cannot be brought to memory at one time. To sort data in a large external file is called an external sort.
+- We can sort a large amount data using an external sort. All the sort algorithms discussed previously assume that all the data to be sorted are available at one time in internal memory, such as in an array. To sort data stored in an external file, we must first bring the data to the memory and then sort it internally. However, if the file is too large all the data in the file cannot be brought to memory at one time. To sort data in a large external file is called an external sort.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/231943254-a21fa320-1315-4fc0-8c18-bbfe8173fc11.png" alt="Image">
