@@ -43,7 +43,7 @@
   <img src="https://user-images.githubusercontent.com/24220136/231917762-91546175-e36f-4afb-8ba1-cf1f2cf506d9.png" alt="Image">
 </p>
 
-- Merge Sort algorithm implementation in Java, and demo result:
+- Merge Sort algorithm implementation in Java and demo result:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/24220136/231917835-0ae7596b-3787-4be0-854f-9d578edf0a1c.png" alt="Image">
